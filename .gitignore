@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# FDE runtime storage (client data should not be pushed to repository)
+.fde-memory/
+**/.fde-memory/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

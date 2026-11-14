@@ -1,0 +1,11 @@
+infrastructure: "Cloud provider, VPC, networking constraints (e.g. AWS eu-central-1, PrivateLink)"
+auth: "Authentication and SSO standard (e.g. SAML2 Okta, OIDC Google)"
+data_residency: "Strict geographical data residency boundaries (e.g. EU GDPR Frankfurt only)"
+deployment_model: "Deployment delivery model (e.g. Customer VPC, On-Premise, Dedicated Tenant SaaS)"
+notes: "High-level engagement scope and stakeholder requirements"
+decisions:
+  - timestamp: "2026-01-01T00:00:00Z"
+    component: "Database"
+    decision: "PostgreSQL"
+    justification: "Client requires transactional consistency over document store flexibility."
+    is_override: false
